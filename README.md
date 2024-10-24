@@ -1,6 +1,6 @@
-# React + Vite
+# Sched.snap
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+an intelligent study planner that caters all your needs at one single place
 
 Currently, two official plugins are available:
 
