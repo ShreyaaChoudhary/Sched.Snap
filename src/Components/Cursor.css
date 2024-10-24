@@ -1,0 +1,22 @@
+body{
+    cursor: none;
+}
+.custom-cursor {
+    position: fixed;
+    width: 60px;  /* Same width used in the calculation */
+    height: 60px; /* Same height used in the calculation */
+    background-image: url('../assets/cursor-removebg-preview.png');
+    background-size: cover;
+    pointer-events: none;
+    z-index: 9999;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.8),   /* Glow effect */
+    0 0 40px rgba(255, 255, 255, 0.6),   /* More diffuse glow */
+    0 0 60px rgba(255, 255, 255, 0.4);   /* Larger spread for softer light */
+border-radius: 50%; /* Makes the shadow radiate evenly in all directions */
+transition: transform 0.1s ease-out; /* Smooth movement */
+}
+a:hover .custom-cursor, button:hover .custom-cursor {
+    box-shadow: 0 0 30px rgba(255, 255, 255, 0.9), 
+                0 0 60px rgba(255, 255, 255, 0.8), 
+                0 0 80px rgba(255, 255, 255, 0.6);
+  }

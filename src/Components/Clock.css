@@ -1,0 +1,53 @@
+
+  * {
+    box-sizing: border-box;
+  }
+  
+  .flex-x {
+    display: flex;
+  }
+  
+  .flex-center {
+    justify-content: center;
+    align-items: center;
+  }
+  p{
+    font-family: freight big pro;
+    font-size: 30px;
+    font-weight: 300;
+  }
+  .main {
+    margin-left: 40px;
+    height: 10px;
+    width: 20px;
+  }
+  
+  #timer {
+    height: fit-content;
+    width: fit-content;
+    padding: 10px 15px;
+    color: hsla(45deg, 15%, 90%, 1); /* Replaced variable with actual value */
+  }
+  
+  .material-symbols-rounded {
+    font-size: 20px;
+    color: rgb(2, 62, 2);/* Replaced variable with actual value */
+  }
+  
+  .hours,
+  .minutes {
+    gap: 0.05rem;
+  }
+  
+  .flip {
+    background: rgb(2, 62, 2);/* Replaced variable with actual value */
+    padding: 5px 10px;
+    border-radius: 0.5rem;
+    text-align: center;
+    font-size: 20px;
+  }
+  
+  
+  
+    
+  

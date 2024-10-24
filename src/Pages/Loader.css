@@ -1,0 +1,117 @@
+/* Loader.css */
+* {
+    margin: 0;
+    padding: 0;
+  }
+  body{
+    overflow: hidden;
+    background-color: beige;
+    overflow-x: hidden;
+    overflow-y:auto;
+    }
+.new{
+    background-image: url('https://i.pinimg.com/736x/82/f4/cf/82f4cf8ccfc66f307d576eee6fcae896.jpg');
+    background-repeat: none;
+    background-size: cover;
+    background-position: center;
+    width: 220vh; 
+    overflow: hidden;
+    height: 100vh;
+    overflow: hidden;
+    cursor: hidden;
+  }
+  .yay{
+    top:0;
+    margin: 0;
+    position: absolute;
+  }
+  .yay .main{
+margin-left: 555px;
+font-size: 18px;
+font-family: freight big pro;
+text-transform: uppercase;
+  }
+  .yay .conta{
+    font-size: 18px;
+
+margin-left: 490px;
+font-family: freight big pro;
+text-transform: uppercase;
+  }
+  span {
+    overflow: hidden;
+    display: block;
+  }
+  .loader-wrap {
+    position: absolute;
+    z-index: 10;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+    background: transparent;
+  }
+  .loader-wrap svg {
+    position: absolute;
+    top: 0;
+    width: 100vw;
+    height: 110vh;
+  }
+  .loader-wrap .loader-wrap-heading h1 {
+    font-size: 120px;
+    z-index: 20;
+    color: #e0e0e0;
+    text-transform: uppercase;
+    font-weight: lighter;
+    font-family: "Ogg";
+  }
+  .container {
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 8%;
+    margin-right: 5%;
+position: fixed;
+z-index: 99;
+overflow: hidden;
+position: absolute;
+top:35%;
+  }
+  .img{
+    position: fixed;
+    top:0;
+    margin-left: 12%;
+  }
+.but{
+  margin-left: 530px;
+  cursor: none;
+  margin-top:55vh;
+}
+  /* From Uiverse.io by sekaiking */ 
+.but button {
+  background-color: BLACK;
+  color: WHITE;
+  border-radius: 10em;
+  font-size: 17px;
+  font-weight: 600;
+  padding: 1em 2em;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  border: 1px solid BLACK;
+  box-shadow: 0 0 0 0 black;
+  cursor: none;
+
+}
+
+.but button:hover {
+  transform: translateY(-4px) translateX(-2px);
+  box-shadow: 2px 5px 0 0 black;
+};
+
+.but button:active {
+  transform: translateY(2px) translateX(1px);
+  box-shadow: 0 0 0 0 black;
+};

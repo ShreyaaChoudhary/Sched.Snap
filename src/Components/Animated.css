@@ -1,0 +1,34 @@
+
+.blinking-cursor {
+    display: inline-block;
+    width: 2px;
+    background-color: black;
+    margin-left: 2px;
+    animation: blink 0.7s infinite;
+}
+@font-face {
+    font-family: 'GomePixel';
+    src: url('../assets/gome-pixel-font/GomePixel-DYJX1.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  .hey {
+    font-family: freight big pro; /* Use the font-family defined in @font-face */
+    font-size: 80px;
+    text-transform: uppercase;
+    color:black;
+    font-style:bold;
+    text-align: center;
+  }
+  @keyframes blink {
+    0% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
